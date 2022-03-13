@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(44, 74, 92, 0.8), rgba(0, 0, 0, 0.8)), url(/src/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+
+/* left side start */
+#banner{
+    flex: 1;
+}
+#logo, #b-text {
+	/* position: fixed; */
+	/* left: 0; */
+	/* right: 0; */
+	height: 50%;
+}
+#logo {
+    top: 0;	
+}
+#b-text {
+	bottom: 0;
+}
+#b-text h1{
+    color: aliceblue;
+    font-size: 80px;
+}
+#b-text p{
+    color: aliceblue;
+    font-size: 15px;
+    line-height: 20px;
+}
+/* left side end */
+
+#right{
+    flex: 1;
+}
